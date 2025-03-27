@@ -81,10 +81,10 @@ function App() {
       githubUrl: "https://github.com/Hert00l"
     },
     {
-      title: "Night RP",
-      description: "Night rp is a minecraft roleplay server ",
-      image: "https://images.unsplash.com/photo-1627856014754-2246bc5b7a45?q=80&w=1740&auto=format&fit=crop",
-      technologies: ["Next.js", "PostgreSQL", "Redis", "Java"],
+      title: "  Portfolio",
+      description: "My personal portfolio ",
+      image: "https://sigmawire.net/i/03/YEwtqM.png",
+      technologies: ["React", "Node.js", "tailwind"],
       liveUrl: "https://www.nightrp.it",
       githubUrl: "https://github.com/Hert00l"
     },
