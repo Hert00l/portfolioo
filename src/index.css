@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+input, textarea {
+  @apply bg-black/40 border-blue-900/50 rounded-md shadow-sm text-white focus:border-blue-500 focus:ring-blue-500;
+}
+
+.skill-bar {
+  @apply h-2 bg-blue-900/30 rounded-full overflow-hidden;
+}
+
+.skill-progress {
+  @apply h-full bg-blue-500 rounded-full transition-all duration-1000;
+}
+
+.reveal {
+  @apply opacity-0 translate-y-10 transition-all duration-1000;
+}
+
+.reveal.active {
+  @apply opacity-100 translate-y-0;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:translate-y-[-10px] hover:shadow-xl hover:shadow-blue-900/20;
+}

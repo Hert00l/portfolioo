@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hert00l - Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+   
+    document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+    });
+
+    
+    document.addEventListener("keydown", function (event) {
+        if (
+            event.key === "F12" || 
+            (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) || 
+            (event.ctrlKey && event.key === "U")
+        ) {
+            event.preventDefault();
+        }
+    });
+
+   
+    let devtools = false;
+    setInterval(function () {
+        let startTime = performance.now();
+        debugger; 
+        let endTime = performance.now();
+        if (endTime - startTime > 50) {
+            alert("CLOSE the DEVTOOLS and enjoy the website bruh ");
+            window.location.href = "about:blank"; 
+        }
+    }, 1000);
+</script>
+
+  </body>
+</html>
