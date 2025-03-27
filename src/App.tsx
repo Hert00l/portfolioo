@@ -85,7 +85,7 @@ function App() {
       description: "My personal portfolio ",
       image: "https://sigmawire.net/i/03/YEwtqM.png",
       technologies: ["React", "Node.js", "tailwind"],
-      liveUrl: "https://www.nightrp.it",
+      liveUrl: "https://hert00l.vercel.app/",
       githubUrl: "https://github.com/Hert00l"
     },
     {
@@ -93,7 +93,7 @@ function App() {
       description: "Professional consulting company helping achieve technical goals",
       image: "https://sigmawire.net/i/03/aBP2RG.png",
       technologies: ["React", "Node.js", "tailwind"],
-      liveUrl: "https://bytehint.com",
+      liveUrl: "https://byte-hint.vercel.app/",
       githubUrl: "https://github.com/Hert00l"
     }
   ];
@@ -266,7 +266,7 @@ function App() {
                className="text-blue-200/80 hover:text-blue-400 transition-colors">
               <Youtube size={20} />
             </a>
-            <a href="https://discord.gg/your-server" target="_blank" rel="noopener noreferrer" 
+            <a href="https://discord.gg/hert00l" target="_blank" rel="noopener noreferrer" 
                className="text-blue-200/80 hover:text-blue-400 transition-colors">
               <Bot size={20} />
             </a>
